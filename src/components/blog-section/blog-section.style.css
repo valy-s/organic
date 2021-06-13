@@ -1,0 +1,31 @@
+.blog__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.leafs {
+  margin-bottom: 2em;
+}
+
+.leaf {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.leaf-right {
+  width: 50px;
+  margin: 0 auto;
+  transform: rotateY(180deg);
+  margin-left: -75px;
+  margin-bottom: -15px;
+}
+
+.section__cards {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: 1rem auto;
+}

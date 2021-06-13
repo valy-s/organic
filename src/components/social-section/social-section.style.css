@@ -1,0 +1,32 @@
+.social__section__container {
+  flex: 20%;
+}
+
+.social__section-title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.social__section-title::after {
+  content: "";
+  display: block;
+  border: solid 2px #00dbd0;
+  width: 3rem;
+  margin: 0.5em 0;
+}
+
+.social__section-icon {
+  font-size: 1rem;
+  border-radius: 1000px;
+  margin-right: 1em;
+  background-color: #fff;
+  color: #374b5c;
+  padding: 0.5em;
+  border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+.testimonials__section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials__image {
+  transform: rotateZ(-90deg) scale(0.8);
+  position: absolute;
+  left: -26%;
+  top: 25%;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.testimonials__form {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.testimonials__form-input {
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+
+.testimonials__from-button {
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 1.313rem 2.844rem 1.5rem;
+  border-radius: 30px;
+  background-color: #00dbd0;
+}

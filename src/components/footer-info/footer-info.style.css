@@ -1,0 +1,34 @@
+.footer__info-container {
+  flex: 40%;
+  padding-left: 2rem;
+}
+.footer__info-text {
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  max-width: 80%;
+}
+
+.footer__info-copyright {
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__info-copyright::before {
+  content: "";
+  display: block;
+  border: solid 2px #00dbd0;
+  width: 3rem;
+  margin: 0.5em 0;
+}

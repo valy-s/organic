@@ -1,0 +1,19 @@
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10rem 2rem 2rem 2rem;
+  background-color: #374b5c;
+  clip-path: polygon(
+    38% 18%,
+    49% 13%,
+    69% 15%,
+    85% 16%,
+    100% 21%,
+    100% 100%,
+    0 100%,
+    0 22%,
+    11% 16%,
+    24% 21%
+  );
+}
