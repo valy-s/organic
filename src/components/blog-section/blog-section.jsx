@@ -1,4 +1,4 @@
-import Leaf from "../../assets/leaf-xxl.png";
+import Leaf from "../../assets/Group 114.png";
 import CardBlog from "../card-blog/card-blog.component";
 import Image1 from "../../assets/containers-with-products-table.jpg";
 import Image2 from "../../assets/potted-plant.jpg";
@@ -10,7 +10,6 @@ const BlogSection = () => (
   <div className="blog__section">
     <div className="leafs">
       <img src={Leaf} alt="lef" className="leaf" />
-      <img src={Leaf} alt="lef" className="leaf-right" />
     </div>
     <h2 className="section__title">Read our blog</h2>
     <h4 className="section__subtitle">

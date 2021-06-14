@@ -1,17 +1,19 @@
-import CardNature from "../card-nature/card-nature.component";
-import Leaf from "../../assets/leaf-xxl.png";
-import Sponsor1 from "../../assets/sponsor1.jpg";
-import Sponsor2 from "../../assets/sponsor2.jpg";
-import Sponsor3 from "../../assets/sponsor3.jpg";
-import Sponsor4 from "../../assets/sponsor4.jpg";
+import {
+  CardNature,
+  CardNatureBlue,
+} from "../card-nature/card-nature.component";
+import Leaf from "../../assets/Group 114.png";
+import Sponsor1 from "../../assets/Group 39.png";
+import Sponsor2 from "../../assets/Group 55.png";
+import Sponsor3 from "../../assets/Group 64.png";
+import Sponsor4 from "../../assets/Group 39.png";
 
 import "./section2.style.css";
 
 const Section2 = () => (
   <div className="section2">
     <div className="leafs">
-      <img src={Leaf} alt="lef" className="leaf" />
-      <img src={Leaf} alt="lef" className="leaf-right" />
+      <img src={Leaf} alt="leafs" className="leaf" />
     </div>
     <div className="section2__nature">
       <h2 className="section__title">Welcome to Nature</h2>
@@ -21,7 +23,7 @@ const Section2 = () => (
       </h4>
       <div className="card__section">
         <CardNature />
-        <CardNature blue={true} />
+        <CardNatureBlue />
         <CardNature />
         <CardNature />
       </div>

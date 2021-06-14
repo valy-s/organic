@@ -1,10 +1,9 @@
-import Logo from "../../assets/blue_flower.svg";
+import Logo from "../../assets/Group 226.png";
 import "./header-logo.style.css";
 
-const HeaderLogo = ({ white }) => (
-  <div className={`header-logo ${white ? "header-logo-white" : null}`}>
+const HeaderLogo = () => (
+  <div className="header__logo">
     <img src={Logo} className="logo" alt="logo" />
-    <p>organic</p>
   </div>
 );
 

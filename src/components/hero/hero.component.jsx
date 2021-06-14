@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
-import HeroLogo from "../../assets/blue_flower.svg";
-import Lilly from "../../assets/arum-lily.png";
+import HeroLogo from "../../assets/Group 228.png";
+import Lilly from "../../assets/Group 195.png";
 
 import "./hero.style.css";
 
